@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Fetch code",
+        "command": "crumbfetch:fetch"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "crumbfetch",
+          "submenu": [
+            {
+              "label": "Fetch code",
+              "command": "crumbfetch:fetch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
